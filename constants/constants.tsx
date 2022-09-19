@@ -7,10 +7,10 @@ const Constants = {
   SYMBOL_PERMUTATIONS: ["513462", "426153", "264351"] as const,
   CHAIN_ID: 80001,
   BET_AMOUNT: 10,
-  GAME_ADDRESS: "0x20243f9b64981f0522d3D4234C3f8Ae218a53cd1",
-  TOKEN_ADDRESS: "0xf579D188077eDC84580f7721C4B631F6118d01A2",
+  GAME_ADDRESS: "0xc8D9DEE0B5bB01306c01927daEa5bDc8219e489B",
+  TOKEN_ADDRESS: "0x8BcF36ef04BD4bEb465991247a9cdb7a0A9a2B31",
   WEBSOCKET_ADDRESS:
-    "wss://speedy-nodes-nyc.moralis.io/4a6cc15939827f0d3ad58ddf/polygon/mumbai/ws",
+    "wss://polygon-mumbai.g.alchemy.com/v2/TBQElMOFVXRUIU_EogHIL4u0CFTBJHKa",
 };
 
 export default Constants;
