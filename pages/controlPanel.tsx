@@ -73,10 +73,7 @@ class ControlPanel extends React.Component<Props, State> {
   componentDidMount() {
     this.setState({
       contract: new this.web3.eth.Contract(Slots.abi, Constants.GAME_ADDRESS),
-      tokenContract: new this.web3.eth.Contract(
-        LLTH.abi,
-        Constants.TOKEN_ADDRESS
-      ),
+      tokenContract: new this.web3.eth.Contract(LLTH, Constants.TOKEN_ADDRESS),
     });
 
     if (this.web3Socket) {
